@@ -17,20 +17,6 @@ En este repositorio encontrarás:
 
 📊 Prácticas orientadas a bases de datos y análisis de datos
 
-🏆 Certificaciones
-✅ Certificación técnica en inglés (nivel B1)
-
-✅ Cursos en desarrollo web, Python y bases de datos
-
-✅ Certificación en control de versiones con Git y GitHub
-
-🚀 Proyectos destacados
-🔹 Portafolio Personal: Mi portafolio personal donde muestro mis proyectos de desarrollo web.
-
-🔹 Tareas Python: Ejercicios de Python, incluyendo algoritmos, estructuras de datos y pruebas de lógica.
-
-🔹 Aplicación de Control de Tareas: App para gestionar tareas diarias utilizando Python y Tkinter.
-
 📫 Contacto
 📧 Correo: fernando@example.com
 
