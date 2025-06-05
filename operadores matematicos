@@ -1,0 +1,47 @@
+# Ejemplo de operadores matemáticos en Python
+
+# Definir algunas variables de ejemplo
+a = 10
+b = 5
+c = 3
+
+# Suma (+)
+suma = a + b
+print("a + b:", suma)  # El resultado es 15
+
+# Resta (-)
+resta = a - b
+print("a - b:", resta)  # El resultado es 5
+
+# Multiplicación (*)
+multiplicacion = a * c
+print("a * c:", multiplicacion)  # El resultado es 30
+
+# División (/)
+division = a / b
+print("a / b:", division)  # El resultado es 2.0 (siempre devuelve float)
+
+# División entera (//)
+division_entera = a // c
+print("a // c:", division_entera)  # El resultado es 3 (división sin decimales)
+
+# Módulo (%) - El resto de la división
+modulo = a % b
+print("a % b:", modulo)  # El resultado es 0 (resto de la división)
+
+# Potencia (**)
+potencia = a ** c
+print("a ** c:", potencia)  # El resultado es 1000 (a elevado a la c)
+
+# Raíz cuadrada con el operador de potencia
+import math
+raiz_cuadrada = math.sqrt(a)
+print("Raíz cuadrada de a:", raiz_cuadrada)  # El resultado es 3.1622776601683795
+
+# Prioridad de operaciones
+prioridad = a + b * c  # La multiplicación se hace antes que la suma
+print("a + b * c:", prioridad)  # El resultado es 25
+
+# Uso de paréntesis para cambiar la prioridad
+prioridad_con_parentesis = (a + b) * c  # Primero se suma y luego se multiplica
+print("(a + b) * c:", prioridad_con_parentesis)  # El resultado es 45
