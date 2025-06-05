@@ -1,0 +1,24 @@
+# Ejemplo de operadores lógicos en Python
+
+# Definir algunas variables de ejemplo
+a = True
+b = False
+c = True
+
+# Operador lógico "and" (y)
+print("a and b:", a and b)  # El resultado es False, porque uno de los valores es False
+
+# Operador lógico "or" (o)
+print("a or b:", a or b)    # El resultado es True, porque al menos uno es True
+
+# Operador lógico "not" (negación)
+print("not a:", not a)      # El resultado es False, ya que a es True y se niega
+
+# Operador "and" con más condiciones
+print("a and c:", a and c)  # El resultado es True, porque ambos son True
+
+# Operador "or" con más condiciones
+print("b or c:", b or c)    # El resultado es True, porque uno es True
+
+# Usando combinaciones
+print("a and not b:", a and not b)  # True, porque a es True y b es False, entonces not b es True
